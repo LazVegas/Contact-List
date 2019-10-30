@@ -1,13 +1,133 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html {
+  box-sizing: border-box;  
+}
+*,*::before, *::after{box-sizing: inherit;}
+
+/* ---------- Start: App.js ---------- */
+
+#container {
+  margin: 0px auto;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+#wrapper {
+  width: 1000px;
+  margin: 0px auto;
+  border: 1px solid rgb(223, 226, 229);
 }
+
+#listView {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 24px;
+}
+
+/* ---------- End: App.js ---------- */
+
+/* ---------- Start: User.js ---------- */
+
+#myPeeps {
+  width: 970px;
+  margin: 10px auto;
+  padding: 15px;
+  background-color: rgb(122, 179, 58);
+  border: 1px solid rgb(122, 179, 58);
+  color: white;
+  font-size: 30px;
+  border-bottom: 4px solid rgb(95, 146, 36)
+}
+
+#listDiv {
+  width: 1000px;
+  margin: 0px auto;
+  padding: 15px;
+  border-bottom: 1px solid rgb(223, 226, 229);
+}
+
+a {
+  text-decoration: none;
+}
+
+#listP {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  border-bottom: 3px solid rgb(234, 234, 234);
+  text-transform: capitalize;
+  font-size: 30px;
+  color: black;
+}
+
+#circle {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+}
+
+/* ---------- End: User.js ---------- */
+
+/* ---------- Start: Contact.js ---------- */
+
+#singleWrapper {
+  width: 1000px;
+  margin: 0px auto;
+  border: 1px solid rgb(223, 226, 229);
+}
+
+#singleView {
+  position: relative;
+  width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 24px;
+}
+
+#backArrow {
+  position: absolute;
+  top: 150px;
+  left: 400px;
+  font-size: 75px;
+}
+
+#profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 970px;
+  height: 400px;
+  margin: 10px auto;
+  padding: 15px;
+  background-color: rgb(122, 179, 58);
+  border: 1px solid rgb(122, 179, 58);
+  color: white;
+  font-size: 30px;
+  border-bottom: 4px solid rgb(95, 146, 36)
+}
+
+#profilePic {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+#listDivContacts {
+  width: 1000px;
+  margin: 0px auto;
+  padding: 15px;
+  border-bottom: 1px solid rgb(223, 226, 229);
+}
+
+.listPContacts {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  border-bottom: 3px solid rgb(234, 234, 234);
+  text-transform: capitalize;
+  font-size: 30px;
+  color: black;
+}
+/* ---------- End: Contact.js ---------- */
